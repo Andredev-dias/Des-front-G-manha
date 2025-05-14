@@ -1,6 +1,33 @@
-.title{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    text-align: center;
-    margin-top: 10vh;
+.menu{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2vw;
+   font-size: 1.4rem;
+   height: 50px;
+   background-color: var(--orange);
+   color: var(--brow);
+   position: fixed;
+   top: 0;
+   left: 0;
+   box-shadow: rgba(240, 146, 46, 0.4) 0px 5px, rgba(240, 133, 46, 0.3) 0px 10px, rgba(240, 140, 46, 0.2) 0px 15px, rgba(240, 185, 46, 0.1) 0px 20px, rgba(240, 153, 46, 0.05) 0px 25px;
+}
+
+.s1{
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.s2{
+    height: 100vh;
+    padding-top: 50px;
+}
+.s3{
+    height: 100vh;
+    padding-top: 50px;
+}
+.s4{
+    height: 100vh;
+    padding-top: 50px;
 }
