@@ -105,8 +105,56 @@
     padding-top: 50px;
 }
 .s4{
-    height: 100vh;
-    padding-top: 50px;
+    height: auto;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+}
+.wrapZap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    background-color: var(--green);
+    width: 500px;
+    height: auto;
+    padding: 50px;
+    border-radius: 20px;
+    border: 5px solid var(--white);
+    box-shadow: rgba(240, 146, 46, 0.3) 0px 5px, rgba(240, 133, 46, 0.2) 0px 10px, rgba(240, 140, 46, 0.2) 0px 15px, rgba(240, 185, 46, 0.1) 0px 20px, rgba(240, 153, 46, 0.05) 0px 25px;
+}
+
+.s4 h2{
+    color: var(--orange);
+    font-size: 3rem;
+    text-shadow: rgba(240, 146, 46, 0.3) 0px 5px, rgba(240, 133, 46, 0.2) 0px 10px, rgba(240, 140, 46, 0.2) 0px 15px, rgba(240, 185, 46, 0.1) 0px 20px, rgba(240, 153, 46, 0.05) 0px 25px;
+    margin-bottom: 2vh;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapZap input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wrapZap button{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.wrapZap textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+
 }
 
 @media (width <= 768px) {
@@ -127,5 +175,8 @@
     }
     .rightS1{
         align-items: center;
+    }
+    .wrapZap{
+        width: 90%;
     }
 }
